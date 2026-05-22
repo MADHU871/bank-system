@@ -27,7 +27,7 @@ jobs:
       run: docker build -t bank-system .
 
     - name: Tag Docker Image
-      run: docker tag bank-system YOUR_DOCKER_USERNAME/bank-system:latest
+      run: docker tag bank-system mad0008271/bank-system:latest
 
     - name: Push Docker Image
-      run: docker push YOUR_DOCKER_USERNAME/bank-system:latest
+      run: docker push mad0008271/bank-system:latest
